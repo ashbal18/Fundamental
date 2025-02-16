@@ -52,3 +52,26 @@ const date2 = new Date("2022-01-22").getTime();
 const diffInDays = Math.abs((date2 - date1) / (1000 * 60 * 60 * 24));
 
 console.log(diffInDays); 
+
+// remedi
+// //5
+// const n: number = 400
+// //const years: number = Math.floor(totalDays / 365) //membulatkan kebawah //mat.ground membulatkan keatas //math.ceil membulatkan ke atas
+
+// const num: number = n % 365 //35
+
+// const years: number = (n - num) /365
+// const month: number = Math.floor(num / 30) 
+// const days: number = num % 30
+
+// console.log(`${n} days -> ${years} year, ${month} month, ${days} day`)
+
+
+// //6
+// function dateDifference(date1: string, date2: string): number {
+//     const diffTime = Math.abs(new Date(date2).getTime() - new Date(date1).getTime());
+//     return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+// }
+
+// // Example usage
+// console.log(dateDifference("2022-01-20", "2022-01-22")); // Output: 2
